@@ -1,0 +1,64 @@
+.class_caja{
+	background-color: #000000;
+	color: #ffffff;
+	margin: 10px;
+	border-radius: 25px;/* color en haxadecimal*/
+	border: 2px solid red;
+	width: 30%;
+	text-align: center;
+	padding: 15px;
+}
+
+.class_titulo, .class_contenido{
+	text-align: center;
+	border-radius: 25px;
+	border: 1px solid #ffffff;
+	background-color: #001526;
+	margin: 0px 2px;
+}
+
+.p1, .p2{
+	color: #00CDE1;
+}
+
+.sp1{
+	font-weight: bold;
+	font-size: 1.2em;
+	color: olive;
+}
+
+#id_caja1{
+	display:inline-block;
+}
+
+#id_caja2{
+	display:inline-block;
+}
+
+#id_caja6{
+	position: absolute;
+	top: 2em;
+	right: 2em;
+}
+
+#id_caja7{
+	position: fixed;
+	top: 2em;
+	left: 5em;
+}
+
+.red{
+	text-decoration: none;
+	color:red;
+	font-size: 2em;
+}
+/*
+%,
+em,
+px
+*/
+
+/*
+display atributos
+diez cajas donde se vean las subcajas
+*/
