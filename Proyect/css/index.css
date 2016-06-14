@@ -1,0 +1,10 @@
+body{
+	background: #eeeeee;
+}
+
+header{
+	background:#0b0b61;
+	color:white;
+	position: relative;
+	padding: 0.5em;
+}
