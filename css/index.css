@@ -35,6 +35,18 @@
 	display:inline-block;
 }
 
+#id_caja3{
+	display: flex;
+}
+
+#id_caja4{
+	display: list-item;
+}
+
+#id_caja5{
+	display: table;
+}
+
 #id_caja6{
 	position: absolute;
 	top: 2em;
@@ -51,6 +63,10 @@
 	text-decoration: none;
 	color:red;
 	font-size: 2em;
+}
+
+.class_contenido p{
+	border: 2px solid pink;
 }
 /*
 %,
