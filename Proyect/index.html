@@ -10,11 +10,15 @@
 		<!--Cabecera-->
 			<header>
 				<!--Imagen animada!-->
-					<figure>
-						<img src="">
+					<figure id="logo">
+						<img src="img/1.png">
 					</figure>
 				<!--Titulo del header-->
 					<h1>Mi Cine BLogg</h1>
+					<p class="nom_user_sesion" id="nom_user">
+						<button id="sun" onclick="csesion();"></button>
+						<span id="opcs"></span>
+					</p>
 			</header>
 		<!--Menu de Navegacion-->
 			<nav>
@@ -26,11 +30,11 @@
 					<li class="l_color"><a href="" class="l_link">Reportajes</a></li>
 					<li class="l_color"><a href="" class="l_link">Galeria</a></li>
 					<li class="l_color"><a href="" class="l_link">El administrador</a></li>
-					<li class="l_color">
-						<a href="" class="">Iniciar sesion</a>
+					<li id="isesion">
+						<a href="" class="" id="mostraris" onclick="fisesion();">Iniciar sesion</a>
 					</li>
-					<li class="l_color">
-						<a href="" class="">Agregar post</a>
+					<li id="addpost">
+						<a href="" class="" id="mostraraddp" onclick="faddpost();">Agregar post</a>
 					</li>
 				</ul>
 			</nav>
